@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="910issue" package="com.sample.910issue" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="910issue" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="swf" />
+
+	<library path="Assets/PucuGimenite_MapObject.swf" preload="true" generate="true" />
+
+	<window fps="60" hardware="true" allow-shaders="true" resizable="true"/>
+
+</project>
